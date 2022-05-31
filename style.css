@@ -11,14 +11,17 @@ h2{
 p{
     color: gray;
 }
+h4{
+    color: gray;
+}
 .name-highlite{
     color: orange;
 }
 .half-width{
-    width: 40%;
+    width: 35%;
     float: left;
     margin-left: 5%;
-    padding-left: 2%;
+    padding-left: 5%;
 }
 .half-width img{
     width: 100%;
@@ -44,4 +47,31 @@ section{
     color: aliceblue ;
     font-weight: 500;
 
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 70%;
+}
+.experience-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#full-stuck{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+    
+}
+#full-stuck2{
+    border-left: 7px solid;
+    border-image: linear-gradient(30deg, cyan, blue);
+    border-image-slice: 1;
+}
+footer{
+    color: #f0673d;
+    text-align: center;
+    font-size: 15px;
 }
